@@ -3,15 +3,17 @@ import {
 } from '../actions'
 
 const initialState = {
-  input: 0
+  input: '',
 };
 
 const rootReducer = (state = initialState, action) => {
+  const { input } = action;
+
   switch (action.type) {
     case TEXT_INPUT:
-      return {
+    return {
         ...state,
-        input: state.input + 1
+        input,
       }
 
     default:

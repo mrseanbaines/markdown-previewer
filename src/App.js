@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
 
-// Redux
-import { connect } from 'react-redux';
+// Components
+import Editor from './components/Editor';
+import Preview from './components/Preview';
 
 class App extends Component {
   render() {
     return (
-      <div></div>
+      <div>
+        <Editor />
+        <Preview />
+      </div>
     );
   }
 }
 
-const mapStateToProps = state => ({
-
-});
-
-const mapDispatchToProps = {
-
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;
