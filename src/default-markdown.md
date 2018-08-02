@@ -1,21 +1,21 @@
-# Header 1
+# This is a heading
 
-## Header 2
+## This is a subheading
 
-[link](https://example.com)
+[This is a link](https://www.example.com)
 
-`<h1>Inline code</h1>`
+`<span>This is inline code</span>`
 
 ```
-<h1>
-  Code block
-</h1>
+<p>
+  This is a code block
+</p>
 ```
 
-- List item
+- This is a list item
 
-> Blockquote
+> This is a blockquote
 
-**Bold text**
+**This is bold text**
 
-![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png)
+![This is an image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png)
