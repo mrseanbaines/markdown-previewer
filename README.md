@@ -1,5 +1,5 @@
 # Markdown Previewer
-A markdown previewer built using React and Redux.
+A markdown previewer built using React, Redux and Marked.js
 
 ## Setup
 Make sure you have [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) installed.
