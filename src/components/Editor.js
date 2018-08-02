@@ -18,9 +18,11 @@ class Editor extends Component {
   render() {
     return (
       <textarea
+        id="editor"
+        className="box"
         value={this.props.input}
         onChange={this.handleTextInput}
-        id="editor">
+      >
       </textarea>
     );
   }
